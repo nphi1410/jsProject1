@@ -6,36 +6,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="navBAr">
-        <div  class="home">
-            <img class="logo" src="img/logoWhite.png" alt="logo" style="height: 40px;">   
-            <span style="padding: 13 1;">University Academic Portal</span>
+    <section class="navBar">
+        <img src="img/logoWhite.png" alt="logo img"/>
+        <div class="options">
+            <div class="option" onclick="redirectToGoogle()"><span> News </span></div>
+            <div class="option"><span> Important notice </span></div>
+            <div class="option"><span> Registration/Application </span></div>
+            <div class="option"><span> Information Access </span></div>
+            <div class="option"><span> Reports </span></div>
+            <div class="option"><span> Regulations </span></div>
+            <div class="option"><span> Others </span></div>
         </div>
-        <div class="options" style="float: right;">
-            <span>News</span>
-            <span>Thủ tục</span>
-            <span>Dịch vụ sinh viên</span>    
-        </div>
-    </section>
-    <section id="pageBanner">
-        <div class="banner">
-            <div class="text">
-                <img class="logo" src="img/logoWhite.png" alt="logo">   
-                <span style="padding: 10 0;">University Academic Portal</span>
-            </div>
+        
+        <div class="option">
+            <span> Setting </span>
         </div>
     </section>
-    <section id="details">
-        <table style="width: 100%;">
-            <tr>
-                <th>
-                    Các loại thủ tục
-                </th>
-                <th>
-                    Các loại dịch vụ
-                </th>
-            </tr>
-        </table>
+    <section class="content">
+        <div class="schedule"></div>
     </section>
+
+
+
+
+
+    <script>
+        function redirectToGoogle() {
+          window.location.href = "https://www.google.com";
+        }
+      </script>
 </body>
 </html>
